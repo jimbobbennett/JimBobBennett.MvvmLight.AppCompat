@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>JimBobBennett.MvvmLight.AppCompat</id>
+    <version>$version$</version>
+    <title>JimBobBennett MVVMLight AppCompat Helpers</title>
+    <authors>Jim Bennett</authors>
+    <owners>Jim Bennett</owners>
+    <projectUrl>https://github.com/jimbobbennett/JimBobBennett.MvvmLight.AppCompat</projectUrl>
+    <iconUrl>http://github.com/jimbobbennett/JimLib/blob/master/JimLib/Jim-32x32.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Helpers for using MVVMLight with AppCompat Android projects</description>
+    <releaseNotes>Initial version - see http://www.jimbobbennett.io/mvvmlight-navigation-and-appcompatactivity/.</releaseNotes>
+    <tags>Android Xamarin MVVMLight AppCompat</tags>
+  </metadata>
+</package>

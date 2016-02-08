@@ -75,9 +75,7 @@ namespace JimBobBennett.MvvmLight.AppCompat
                 return null;
 
             lock (_parametersByKey)
-            {
                 return _parametersByKey.ContainsKey(stringExtra) ? _parametersByKey[stringExtra] : null;
-            }
         }
         
         public T GetAndRemoveParameter<T>(Intent intent)
