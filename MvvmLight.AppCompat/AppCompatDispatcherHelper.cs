@@ -7,7 +7,7 @@ namespace JimBobBennett.MvvmLight.AppCompat
     ///     Helper class for dispatcher operations on the UI thread in Android.
     /// </summary>
     /// <remarks>Original code by Laurent Bugnion</remarks>
-    public static class AppcompatDispatcherHelper
+    public static class AppCompatDispatcherHelper
     {
         /// <summary>
         ///     Executes an action on the UI thread. If this method is called
@@ -52,7 +52,7 @@ namespace JimBobBennett.MvvmLight.AppCompat
         {
             if (AppCompatActivityBase.CurrentActivity == null)
             {
-                var error = new StringBuilder($"The {nameof(AppcompatDispatcherHelper)} cannot be called.");
+                var error = new StringBuilder($"The {nameof(AppCompatDispatcherHelper)} cannot be called.");
                 error.AppendLine();
                 error.Append($"Make sure that your main Activity derives from {nameof(AppCompatActivityBase)}.");
 
