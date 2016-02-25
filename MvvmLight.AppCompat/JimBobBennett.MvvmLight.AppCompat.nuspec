@@ -4,7 +4,7 @@
     <id>JimBobBennett.MvvmLight.AppCompat</id>
     <version>$version$</version>
     <title>JimBobBennett MVVMLight AppCompat Helpers</title>
-    <authors>Jim Bennett</authors>
+    <authors>Jim Bennett, Samuel Debruyn, Laurent Bugnion</authors>
     <owners>Jim Bennett</owners>
     <projectUrl>https://github.com/jimbobbennett/JimBobBennett.MvvmLight.AppCompat</projectUrl>
     <iconUrl>http://github.com/jimbobbennett/JimLib/blob/master/JimLib/Jim-32x32.png</iconUrl>
