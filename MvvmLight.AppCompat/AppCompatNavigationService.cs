@@ -27,7 +27,7 @@ namespace JimBobBennett.MvvmLight.AppCompat
         
         public void NavigateTo(string pageKey, object parameter)
         {
-            AppCompatActivityBase.CurrentActivity.RunOnUiThread(() =>
+            AppcompatDispatcherHelper.CheckBeginInvokeOnUI(() =>
             {
                 if (AppCompatActivityBase.CurrentActivity == null)
                     throw new InvalidOperationException("No CurrentActivity found");
